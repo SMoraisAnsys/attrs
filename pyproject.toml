@@ -51,7 +51,6 @@ tests = [
   "pympler",
   # 4.3.0 dropped last use of `convert`
   "pytest>=4.3.0",
-  "pytest-xdist[psutil]",
 ]
 cov = [
   { include-group = "tests" },

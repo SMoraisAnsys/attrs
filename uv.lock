@@ -55,7 +55,6 @@ cov = [
     { name = "pympler" },
     { name = "pytest" },
     { name = "pytest-mypy-plugins", marker = "python_full_version >= '3.9' and platform_python_implementation == 'CPython'" },
-    { name = "pytest-xdist", extra = ["psutil"] },
 ]
 dev = [
     { name = "cloudpickle", marker = "platform_python_implementation == 'CPython'" },
@@ -64,7 +63,6 @@ dev = [
     { name = "pympler" },
     { name = "pytest" },
     { name = "pytest-mypy-plugins", marker = "python_full_version >= '3.9' and platform_python_implementation == 'CPython'" },
-    { name = "pytest-xdist", extra = ["psutil"] },
 ]
 docs = [
     { name = "cogapp" },
@@ -93,7 +91,6 @@ pyright = [
     { name = "pyright" },
     { name = "pytest" },
     { name = "pytest-mypy-plugins", marker = "python_full_version >= '3.9' and platform_python_implementation == 'CPython'" },
-    { name = "pytest-xdist", extra = ["psutil"] },
 ]
 tests = [
     { name = "cloudpickle", marker = "platform_python_implementation == 'CPython'" },
@@ -102,7 +99,6 @@ tests = [
     { name = "pympler" },
     { name = "pytest" },
     { name = "pytest-mypy-plugins", marker = "python_full_version >= '3.9' and platform_python_implementation == 'CPython'" },
-    { name = "pytest-xdist", extra = ["psutil"] },
 ]
 tests-mypy = [
     { name = "mypy", marker = "python_full_version >= '3.9' and platform_python_implementation == 'CPython'" },
@@ -130,7 +126,6 @@ cov = [
     { name = "pympler" },
     { name = "pytest", specifier = ">=4.3.0" },
     { name = "pytest-mypy-plugins", marker = "python_full_version >= '3.9' and platform_python_implementation == 'CPython'" },
-    { name = "pytest-xdist", extras = ["psutil"] },
 ]
 dev = [
     { name = "cloudpickle", marker = "platform_python_implementation == 'CPython'" },
@@ -139,7 +134,6 @@ dev = [
     { name = "pympler" },
     { name = "pytest", specifier = ">=4.3.0" },
     { name = "pytest-mypy-plugins", marker = "python_full_version >= '3.9' and platform_python_implementation == 'CPython'" },
-    { name = "pytest-xdist", extras = ["psutil"] },
 ]
 docs = [
     { name = "cogapp" },
@@ -168,7 +162,6 @@ pyright = [
     { name = "pyright", specifier = "<1.1.380" },
     { name = "pytest", specifier = ">=4.3.0" },
     { name = "pytest-mypy-plugins", marker = "python_full_version >= '3.9' and platform_python_implementation == 'CPython'" },
-    { name = "pytest-xdist", extras = ["psutil"] },
 ]
 tests = [
     { name = "cloudpickle", marker = "platform_python_implementation == 'CPython'" },
@@ -177,7 +170,6 @@ tests = [
     { name = "pympler" },
     { name = "pytest", specifier = ">=4.3.0" },
     { name = "pytest-mypy-plugins", marker = "python_full_version >= '3.9' and platform_python_implementation == 'CPython'" },
-    { name = "pytest-xdist", extras = ["psutil"] },
 ]
 tests-mypy = [
     { name = "mypy", marker = "python_full_version >= '3.9' and platform_python_implementation == 'CPython'", specifier = ">=1.11.1" },
